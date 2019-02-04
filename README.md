@@ -66,3 +66,8 @@ With Refit is really easy to make a quick strongly-typed REST Client for pretty 
 **P.S. To make this POC up and running you have to load and run my [AspNetCore-Api-Demo](https://github.com/matjazbravc/AspNetCore-Api-Demo) solution.**
 
 Go get Refit and play with it today!
+
+## Licence
+
+Licenced under [MIT](http://opensource.org/licenses/mit-license.php).
+Developed by [Matjaž Bravc](https://si.linkedin.com/in/matjazbravc)
