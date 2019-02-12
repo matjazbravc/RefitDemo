@@ -70,4 +70,4 @@ Go get Refit and play with it today!
 ## Licence
 
 Licenced under [MIT](http://opensource.org/licenses/mit-license.php).
-Developed by [Matjaž Bravc](https://si.linkedin.com/in/matjazbravc)
+Contact me on [LinkedIn](https://si.linkedin.com/in/matjazbravc).
