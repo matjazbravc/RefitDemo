@@ -7,22 +7,22 @@ namespace RefitDemo.ApiInterfaces
 {
     public interface ICompanyUsersApi
     {
-        [Post("/api/users/authenticate")]
+        [Post("/api/v1.1/users/authenticate")]
         Task<User> AuthenticateUser([Body] UserDto user);
 
-        [Post("/api/users/create")]
+        [Post("/api/v1.1/users/create")]
         [Headers("Authorization: Bearer")]
         Task<User> CreateUser([Body] User user);
 
-        [Delete("/api/users/{userName}")]
+        [Delete("/api/v1.1/users/{userName}")]
         [Headers("Authorization: Bearer")]
         Task DeleteUser(string userName);
 
-        [Get("/api/users/getall")]
+        [Get("/api/v1.1/users/getall")]
         [Headers("Authorization: Bearer")]
         Task<IEnumerable<User>> GetAllUsers();
 
-        [Get("/api/users/{userName}")]
+        [Get("/api/v1.1/users/{userName}")]
         [Headers("Authorization: Bearer")]
         Task<User> GetUser(string userName);
     }

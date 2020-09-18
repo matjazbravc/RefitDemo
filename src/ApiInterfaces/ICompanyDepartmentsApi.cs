@@ -7,16 +7,20 @@ namespace RefitDemo.ApiInterfaces
 {
     public interface ICompanyDepartmentsApi
     {
-        [Post("/api/departments/create")]
+        [Post("/api/v1.1/departments/create")]
+        [Headers("Authorization: Bearer")]
         Task<Department> CreateDepartment([Body] Department department);
 
-        [Delete("/api/departments/{id}")]
+        [Delete("/api/v1.1/departments/{id}")]
+        [Headers("Authorization: Bearer")]
         Task DeleteDepartment(int id);
 
-        [Get("/api/departments/getall")]
+        [Get("/api/v1.1/departments/getall")]
+        [Headers("Authorization: Bearer")]
         Task<IEnumerable<DepartmentDto>> GetAllDepartments();
 
-        [Get("/api/departments/{id}")]
+        [Get("/api/v1.1/departments/{id}")]
+        [Headers("Authorization: Bearer")]
         Task<Department> GetDepartment(int id);
     }
 }
