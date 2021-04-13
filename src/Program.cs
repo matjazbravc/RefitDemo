@@ -1,9 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Refit;
 using RefitDemo.ApiInterfaces;
 using RefitDemo.Entities;
+using System.Threading.Tasks;
+using System;
 
 namespace RefitDemo
 {
