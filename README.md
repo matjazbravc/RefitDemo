@@ -1,4 +1,4 @@
-# Refit RESTful library POC with ASP.NET Core 3.1
+# Refit RESTful library POC
 
 Instead of you make your own HttpClient calls (which is a little bit low level and somewhat annoying) you can use [Refit](https://github.com/reactiveui/refit), an automatic type-safe REST library for .NET Core and Xamarin. It makes it easy to just declare the methods of a client and its associated REST API with a C# interfaces like this:
 
